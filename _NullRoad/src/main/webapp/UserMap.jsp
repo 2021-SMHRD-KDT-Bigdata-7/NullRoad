@@ -295,7 +295,7 @@ background:none;}
 		ArrayList<BuildingVO> bldhidon=dao.BldHidOn();
 		ArrayList<ParkableVO> prkablelist=dao.Prkable();
 		
-		//임시 데이터
+		//예약 체크 함수
 		dao.PayReserCheck();
 		
     %>

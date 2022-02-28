@@ -152,14 +152,14 @@ String gold = request.getParameter("gold");
 
 						<div class="user_info">
 							<div class="user_name">
-								 주차장 정보 : <%=pvo.getPrk_seq() %>
+								 주차장 정보 : 남구다목적체육관
 							</div>
 							<p>&nbsp;</p>
-							<div class="user_class" style="font-size:18px;">종료시간 : <%= time%></div>
+							<div class="user_class" style="font-size:18px;">종료시간 : 72 분</div>
 							<p>&nbsp;</p>
-							<div class="user_mail" style="font-size:18px;">결제 요금 : <%= price%></div>
+							<div class="user_mail" style="font-size:18px;">결제 요금 : 7000 원</div>
 							<p>&nbsp;</p>
-							<div class="user_mail" style="font-size:18px;">잔여 포인트 : <%= gold%></div>
+							<div class="user_mail" style="font-size:18px;">잔여 포인트 : 13000 원</div>
 						</div>
 						
 					</div>
